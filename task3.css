@@ -1,0 +1,44 @@
+body {
+    margin: 20px;
+    font-family: "Times New Roman", serif;
+}
+
+.nav {
+    width: 200px;
+    box-shadow: 3px 3px gray;
+}
+
+.pt, .drop_item {
+    display: block;
+    padding: 13px 0;
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid #bbb;
+    border-radius: 4px;
+}
+
+.pt {
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    background: linear-gradient(#e3e3e3, #efefef);
+}
+
+.drop_item {
+    padding-left: 20px;
+    text-align: left;
+    font-size: 14px;
+    background: linear-gradient(#efefef, #f7f7f7);
+}
+
+.pt:hover, .drop_item:hover {
+    background: linear-gradient(#ccc, #919191);
+}
+
+.drop {
+    display: none;
+}
+
+.item:hover > .drop {
+    display: block;
+}
